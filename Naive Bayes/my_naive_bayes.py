@@ -143,7 +143,7 @@ def my_naive_bayes(testfile):
             
             maximum = max(maxDict, key=maxDict.get) 
             
-            results.write(line.strip('\n') + '\t' + maximum + '\n')            
+            results.write(maximum + '\n')            
 
 
 # In[85]:
